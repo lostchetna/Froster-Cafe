@@ -1,0 +1,207 @@
+
+<style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+  .wrapper{
+  width:1200px;
+  margin:100px auto;
+  }
+  .title{
+  text-align:center;
+  margin-bottom:60px;
+  }
+  .title h4{
+  text-transform:capitalize;
+  font-size:36px;
+  position:relative;
+  display:inline-block;
+  padding-bottom:10px;
+  }
+  .title h4 span{
+  display:block;
+  font-size:18px;
+  font-style:italic;
+  margin-bottom:10px;
+  }
+  .title h4:before{
+  position:absolute;
+  content:"";
+  width:100px;
+  height:2px;
+  background-color:#ff7720;
+  bottom:0;
+  left:50%;
+  transform:translateX(-50%);
+  }
+  .menu{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  }
+  .single-menu{
+  flex-basis:580px;
+  margin-bottom:40px;
+  padding-bottom:40px;
+  border-bottom:1px solid #ddd;
+  }
+  .single-menu:nth-child(5), .single-menu:nth-child(6){
+  border-bottom:0;
+  }
+  .single-menu{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  }
+  .single-menu:hover img{
+  border-radius:0;
+  }
+  .single-menu img{
+  max-width:180px;
+  margin-right:30px;
+  border-radius:50%;
+  border:1px solid #ddd;
+  padding:3px;
+  transition:.5s;
+  }
+  .single-menu h4{
+  text-transform:capitalize;
+  font-size:22px;
+  border-bottom:1px dashed #333;
+  margin-bottom:5px;
+  padding-bottom:5px;
+  }
+  .single-menu h4 span{
+  float:right;
+  color:#ff7720;
+  font-style:italic;
+  }
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+  body {
+      font-family: 'Open Sans', sans-serif;
+      background: #2c3e50;
+  }
+  nav{
+      position: relative;
+      margin: 270px auto 0;
+      width: 310px;
+      height: 50px;
+      background: #34495e;
+      border-radius: 8px;
+      font-size: 0;
+      box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+  }
+  nav a{
+      font-size: 15px;
+      text-transform: uppercase;
+      color: white;
+      text-decoration: none;
+      line-height: 50px;
+      position: relative;
+      z-index: 1;
+      display: inline-block;
+      text-align: center;
+      justify-items: baseline;}
+  nav .animation{
+      position: absolute;
+      height: 100%;
+      /* height: 5px; */
+      top: 0;
+      /* bottom: 0; */
+      z-index: 0;
+      background: #1abc9c;
+      border-radius: 8px;
+      transition: all .5s ease 0s;
+  }
+  nav a:nth-child(1){
+      width: 100px;
+  }
+  nav .start-home, a:nth-child(1):hover~.animation{
+      width: 100px;
+      left: 0;
+  }
+  nav a:nth-child(2){
+      width: 110px;
+  }
+  nav a:nth-child(2):hover~.animation{
+      width: 110px;
+      left: 100px;
+  }
+  nav a:nth-child(3){
+      width: 100px;
+  }
+  nav a:nth-child(3):hover~.animation{
+      width: 100px;
+      left: 210px;
+      
+  }
+  </style>
+  
+  
+  
+  
+  
+  <body>
+      <nav>
+          <a  href="menu2.html">Drinks</a>
+          <a href="Pizza.component.html">Pizzas</a>
+          <a href="menu2.html">Side-dish</a>
+          
+          <div class="animation start-home"></div>
+        </nav>
+  
+  <div class="wrapper">
+        <div class="title">
+            <h4><span>fresh food for good health</span>Drinks</h4>
+        </div>
+        <div class="menu">
+            <div class="single-menu">
+                <img src="https://www.bigbasket.com/media/uploads/p/l/40094178-2_7-7-up-soft-drink.jpg" alt="">
+                <div class="menu-content">
+                    <h4>7Up <span>$85</span></h4>
+                    <button type="button" >order now</button>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="https://www.bigbasket.com/media/uploads/p/xxl/40093330_2-campa-cola-soft-drink.jpg" alt="">
+                <div class="menu-content">
+                    <h4>Camp cola Drink <span>$50</span></h4>
+                    <button type="button" >order now</button>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="https://m.media-amazon.com/images/I/61y4HOllrdL._SX522_.jpg" alt="">
+                <div class="menu-content">
+                    <h4>Coco cola <span>$65</span></h4>
+                    <button type="button" >order now</button>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="https://5.imimg.com/data5/YB/CQ/CC/SELLER-52902586/blue-vista-jeera-cola-500x500.jpg" alt="">
+                <div class="menu-content">
+                    <h4>Jeera Cola <span>$45</span></h4>
+                    <button type="button" >order now</button>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2020/10/NG/XM/YJ/17936098/mazza-600ml-500x500.jpg" alt="">
+                <div class="menu-content">
+                    <h4>Maaza <span>$80</span></h4>
+                    <button type="button" >order now</button>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="https://www.jiomart.com/images/product/original/490916734/pepsi-250-ml-can-product-images-o490916734-p490916734-0-202203150107.jpg" alt="">
+                <div class="menu-content">
+                    <h4>Pepsi <span>$100</span></h4>
+                    <button type="button" >order now</button>
+                </div>
+            </div>
+        </div>
+    </div></body>
