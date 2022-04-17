@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+    width: 80%;
+          margin: auto;
+       
+     
+        
+  }
+  .entire{
+    margin: auto;
+       
+       min-height: 100vh;
+       background-image: URL('https://static.wixstatic.com/media/be2df9_a8c6439b1fe14d1f9b1ed19da72676fe~mv2_d_5248_3498_s_4_2.jpg/v1/fill/w_1920,h_1280,al_c,q_90,usm_0.66_1.00_0.01/be2df9_a8c6439b1fe14d1f9b1ed19da72676fe~mv2_d_5248_3498_s_4_2.jpg');
+       background-size: cover;
+       position: relative;
+  }
+  h1 {
+          font-size: 80px;
+          text-transform: capitalize;
+          text-align: center;
+          margin-bottom: 20px;
+          color: white;
+        }
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  
+  }
+  
+  th,
+  td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-size: 32px;
+  }
+  
+  th {
+    background-color: rgb(117, 201, 250);
+  }
+  
+  td{
+    background-color: rgb(117, 201, 250);
+    order: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-size: 32px;
+  }
+  
+  
+  form {
+    display: flex;
+    gap: 5px;
+  }
+  
+  form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  form * {
+    font-size: 28px;
+  }

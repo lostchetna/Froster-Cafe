@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+    width: 80%;
+          margin: auto;
+       
+     
+        
+  }
+  .entire{
+    margin: auto;
+       
+       min-height: 100vh;
+       background-image: URL('https://tse1.mm.bing.net/th?id=OIP.HznPkK2Ke75ldyMne9WtUAHaEK&pid=Api&P=0&w=281&h=158');
+       background-size: cover;
+       position: relative;
+  }
+  h1 {
+          font-size: 80px;
+          text-transform: capitalize;
+          text-align: center;
+          margin-bottom: 20px;
+          color: white;
+        }
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  
+  }
+  
+  th,
+  td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-size: 15px;
+  }
+  
+  th {
+    background-color: rgb(30, 206, 162);
+  }
+  
+  td{
+    background-color: rgb(229, 219, 236);
+    order: 1px solid #a50aec;
+    text-align: left;
+    padding: 8px;
+    font-size: 32px;
+  }
+  
+  
+  form {
+    display: flex;
+    gap: 5px;
+  }
+  
+  form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  form * {
+    font-size: 28px;
+  }

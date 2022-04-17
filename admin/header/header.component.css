@@ -1,0 +1,9 @@
+.navbar-light .navbar-nav .nav-link
+{
+    color: #080808;
+}
+.navbar-light .navbar-nav .nav-link.active-link
+{
+    color: rgb(55, 121, 219);
+    text-decoration: underline;
+}
