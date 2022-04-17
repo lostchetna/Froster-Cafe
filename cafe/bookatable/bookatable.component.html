@@ -1,0 +1,78 @@
+
+   
+    <div class="container">
+      <h1>Book A Table</h1>
+      <p>
+        A great restaurant is one that just makes you feel like you're not sure whether you went out or you came home and confuses you.
+      </p>
+      <div class="box">
+        <div class="grid">
+          <input
+            type="text"
+            placeholder="Your Name"
+            name="Name"
+            id="name"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Your Email"
+            name="email"
+            id="email"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Your Phone"
+            name="phone"
+            id="phone"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Date"
+            name="date"
+            id="date"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Time"
+            name="time"
+            id="time"
+            required
+          />
+          <input
+            type="text"
+            placeholder="# of people"
+            name="people"
+            id="people"
+            required
+          />
+        </div>
+        
+        <br>
+          <h5>What is Your Table Choice?<h5>
+            <div>
+         <input type="radio" id="ac" name="table" value="ac">
+        <label for="ac">AC</label><br>
+        <input type="radio" id="non ac" name="table" value="nonac">
+        <label for="non ac">NON-AC</label>
+          </div>
+        <input
+          type="text"
+          placeholder="Message"
+          name="message"
+          id="message"
+          required
+        />
+        <br />
+        <div class="buttonDiv">
+          <button onclick="myFunction()" type="submit" class="registeration">Reserve my table</button>
+          <script>function myFunction()
+          {
+            alert("Your table booked successfully");}
+            </script>
+        </div>
+      
+    
